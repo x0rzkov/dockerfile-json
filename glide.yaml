@@ -1,0 +1,7 @@
+package: github.com/x0rzkov/dockerfile-json
+import:
+- package: github.com/moby/buildkit
+  subpackages:
+  - frontend/dockerfile/instructions
+  - frontend/dockerfile/parser
+- package: github.com/yalp/jsonpath
