@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/moby/buildkit/frontend/dockerfile/instructions"
-	"github.com/moby/buildkit/frontend/dockerfile/parser"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/instructions"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/parser"
 )
 
 func Parse(path string) (*Dockerfile, error) {

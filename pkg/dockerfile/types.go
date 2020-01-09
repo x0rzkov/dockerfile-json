@@ -1,7 +1,7 @@
 package dockerfile
 
 import (
-	"github.com/moby/buildkit/frontend/dockerfile/instructions"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/instructions"
 )
 
 type Dockerfile struct {
